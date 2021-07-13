@@ -1,13 +1,14 @@
 # super-emotion
-using deepface and reactTS
+- using deepface and reactTS
+- ref: https://www.youtube.com/watch?v=HeKCQ6U9XmI
 
 ### install env
 ```
 conda create -n ai35 python=3.5
 conda activate ai35
 pip install deepface
-git clone git@github.com:serengil/deepface.git
-cd api
+git clone https://github.com/serengil/deepface.git
+cd /deepface/api
 python api.py
 
 ```
