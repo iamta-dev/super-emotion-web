@@ -7,6 +7,7 @@
 conda create -n ai35 python=3.5
 conda activate ai35
 pip install deepface
+pip install flask_cors
 git clone https://github.com/serengil/deepface.git
 cd /deepface/api
 python api.py
