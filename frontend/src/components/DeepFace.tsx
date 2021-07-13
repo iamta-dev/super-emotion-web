@@ -209,13 +209,13 @@ const Summary = ({instance}:{instance: IDeepFace}) =>{
               </div>
             </div>
             <div className="grid grid-cols-2 justify-between">
-              <div className="text-xl">dominant_emotion</div>
+              <div className="text-xl">dominant_race</div>
               <div className={`ml-8 text-xl text-gray-500`}>
                 {instance.instance_1.dominant_race}
               </div>
             </div>
             <div className="grid grid-cols-2 justify-between">
-              <div className="text-xl">emotion</div>
+              <div className="text-xl">race</div>
               <div className={`ml-8 text-xl text-gray-500`}>
               {instance.instance_1.race[instance.instance_1.dominant_race]}
               </div>
