@@ -75,7 +75,7 @@ export const DeepFace = ({name}:{name:string}) => {
       seconds: 0,
       trx_id : "",
     }
-  )
+  );
 
   const processingImg = async(imgBase64: string)=>{
     setProcessing(true);
@@ -158,6 +158,7 @@ export const DeepFace = ({name}:{name:string}) => {
                   onClick={() => {
                     setSelectImg("");
                     setProcessing(false);
+                    setInstance({...instance,trx_id:""})
                   }}
                 >
                   <p>ยกเลิก</p>
