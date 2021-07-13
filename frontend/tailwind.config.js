@@ -25,6 +25,14 @@ module.exports = {
         "100vh": "100vh",
         "200vh": "200vh",
       },
+      minHeight: {
+        "30vh": "30vh",
+        "40vh": "40vh",
+        "50vh": "50vh",
+        "80vh": "80vh",
+        "100vh": "100vh",
+        "200vh": "200vh",
+      },
       colors: {
         primary: {
           100: "#FFFFFF",

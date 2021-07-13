@@ -2,9 +2,7 @@ import axios from "axios";
 const httpClient = axios;
 httpClient.interceptors.request.use(
   function (config) {
-    config.timeout = 15000;
-    config.baseURL = "http://172.21.2.75:5000";
-    config.withCredentials = true;
+    config.baseURL = "http://localhost:5000";
     return config;
   },
   (error) => {
