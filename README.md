@@ -1,6 +1,11 @@
 # super-emotion
 using deepface and reactTS
+
+### install env
 ```
+conda create -n ai35 python=3.5
+conda activate ai35
+pip install deepface
 git clone git@github.com:serengil/deepface.git
 cd api
 python api.py
@@ -10,6 +15,7 @@ python api.py
 ```
 POST -  http://172.21.2.75:5000/analyze
 ```
+- body JSON
 ```
 {
     "img":[
