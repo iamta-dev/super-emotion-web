@@ -17,8 +17,8 @@ python api.py
 
 ### install dependencies
 
-- https://github.com/taZgg/deepface-api/README.md
-- https://github.com/taZgg/super-resolution-api/README.md
+- https://github.com/taZgg/deepface-api/blob/main/README.md
+- https://github.com/taZgg/super-resolution-api/blob/main/README.md
 
 ```
 conda env remove --name ai
